@@ -174,8 +174,22 @@ p {
   top: 0;
   left: 0;
 }
-
-
+img[src="img/item-01.jpg"] {
+    width: 60%; /* Reduce size by 40% */
+    height: auto; /* Maintain aspect ratio */
+}
+img[src="img/item-02.jpg"] {
+    width: 60%; /* Reduce size by 40% */
+    height: auto; /* Maintain aspect ratio */
+}
+img[src="img/item-03.jpg"] {
+    width: 60%; /* Reduce size by 40% */
+    height: auto; /* Maintain aspect ratio */
+}
+img[src="img/item-04.jpg"] {
+    width: 60%; /* Reduce size by 40% */
+    height: auto; /* Maintain aspect ratio */
+}
 /*
 =======================
 ----- FIRST SLIDE -----
