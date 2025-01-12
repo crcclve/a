@@ -3,7 +3,7 @@ body {
 }
 /* Preload the background image */
 body:before {
-  content: url('http://www.newkeylocksmiths.com.au/img/images.jpg');
+  content: url('/img/images.jpg');
   display: none;
 }
 p {
@@ -20,7 +20,7 @@ p {
   width: 100%;
   height: 100%;
   z-index: 1;
- background: linear-gradient(to bottom, rgba(0,0,0,0.55), #8B4513); /* Combine dim background and SaddleBrown */
+ background: linear-gradient(to bottom, rgba(0,0,0,0.45), #8B4513); /* Combine dim background and SaddleBrown */
 }
 
 .primary-button button {
