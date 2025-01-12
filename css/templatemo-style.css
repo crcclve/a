@@ -162,10 +162,11 @@ p {
 
 .top-part img {
   width: 100%;
+  height: auto; /* Ensure the height scales correctly */
   background-size: cover;
   position: absolute;
   overflow: hidden;
-  top:0;
+  top: 0;
   left: 0;
 }
 
