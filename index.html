@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>New-Key Locksmiths Newcastle</title>
-    <meta name="description" content="">
+    <meta name="description" content="Newcastle , NSW , Locksmith , Locksmiths">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -54,6 +54,16 @@
                                         <div class="primary-button">
                                             <button id="callButton">Call Us ✆</button>
                                         </div>
+                                        <script>
+                                            document.getElementById('callButton').addEventListener('click', function() {
+                                                var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                                                if (isMobile) {
+                                                    window.location.href = 'tel:+61400000000'; // Replace with your mobile number
+                                                } else {
+                                                    alert('To call us, please dial +61400000000'); // Replace with your mobile number
+                                                }
+                                            });
+                                        </script>
                                         <br>
                                     </div>
                                 </div>
@@ -186,6 +196,16 @@
                                                             <button id="callButtonCopy">Call Me On: ✆</button>
                                                         </div>
                                                     </p>
+                                                    <script>
+                                                        document.getElementById('callButtonCopy').addEventListener('click', function() {
+                                                            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+                                                            if (isMobile) {
+                                                                window.location.href = 'tel:+61400000000'; // Replace with your mobile number
+                                                            } else {
+                                                                alert('To call us, please dial +61400000000'); // Replace with your mobile number
+                                                            }
+                                                        });
+                                                    </script>
                                                     <br><br>
                                                     <em>Newcastle, NSW</em><br><br>
                                                     <ul class="social-icons">
@@ -237,5 +257,20 @@
         <p>&copy; 2024 <a href="https://www.newkeylocksmiths.com.au" target="_blank">New-Key Locksmiths Newcastle</a>. ABN 42 957 516 258</p>
     </footer>
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        document.getElementById('callButton').addEventListener('click', function() {
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+            if (isMobile) {
+                window.location.href = 'tel:+61400000000'; // Replace with your mobile number
+            } else {
+                alert('To call us, please dial +61400000000'); // Replace with your mobile number
+            }
+        });
+    </script>
 </body>
 </html>
