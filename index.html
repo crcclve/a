@@ -57,6 +57,8 @@
                         <h4>About Our Services</h4>
                         <p></p>
                         <div class="primary-button">
+  <button id="callButton">Call Us</button>
+</div>
                           <script>
   document.getElementById('callButton').addEventListener('click', function() {
     var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
@@ -267,9 +269,9 @@
 
 
         <footer>
-          <p>Copyright &copy; 2020 Your Company 
+          <p>Copyright &copy; 2024 New-Key Locksmiths Newcastle
                                 
-        	| Designed by <em>Template Mo</em></p>
+        	</em></p>
         </footer>
     
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -278,6 +280,16 @@
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <script>
+  document.getElementById('callButton').addEventListener('click', function() {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.href = 'tel:+1234567890'; // Replace with your mobile number
+    } else {
+      alert('To call us, please dial +1234567890'); // Replace with your mobile number
+    }
+  });
+</script>
 
     </body>
 </html>
