@@ -146,13 +146,12 @@ p {
   -webkit-transition: all 0.2s linear;
 } */
 .content {
-  background-color: #d3d3d3; /* Light grey color */
+  background-color: #fff; /* Reverting to white color */
   margin-bottom: 100px;
   margin-top: -80px;
   border-top: 15px solid #ffbb05;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
-
 
 /*
 =====================
@@ -247,7 +246,7 @@ p {
   margin-top: 20px;
   font-size: 38px;
   text-transform: uppercase;
-  color: #fff;
+  color: #c0c0c0;
   font-weight: 900;
   letter-spacing: 1px;
 }
