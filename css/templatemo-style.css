@@ -132,7 +132,7 @@ video::-webkit-media-controls {
 
 .cd-slider-nav ul li {
   display: inline-block;
-  margin: 40px 20px; /* Move buttons further towards the top */
+  margin: 40px 20px; /* Adjust margin if needed */
 }
 
 .cd-slider-nav ul li a {
@@ -157,9 +157,9 @@ video::-webkit-media-controls {
   margin: 0 auto;
   margin-bottom: 15px;
   display: block;
-  width: 56px; /* 70% of 80px */
-  height: 56px; /* 70% of 80px */
-  line-height: 56px; /* 70% of 80px */
+  width: 40px; /* Half of 80px */
+  height: 40px; /* Half of 80px */
+  line-height: 40px; /* Half of 80px */
   border-radius: 50%;
   text-align: center;
   background-color: #ffbb05;
