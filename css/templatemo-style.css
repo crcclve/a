@@ -166,7 +166,7 @@ p {
 */
 
 .top-part img {
-  width: 100%;
+  width: 60%%;
   height: auto; /* Ensure the height scales correctly */
   background-size: cover;
   position: absolute;
