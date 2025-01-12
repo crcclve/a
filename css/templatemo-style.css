@@ -139,12 +139,12 @@ p {
   background-color: #ffbb05;
 }
 
-.cd-slider-nav .image-icon:hover {
+/* .cd-slider-nav .image-icon:hover {
   background-color: #fff;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
-}
+} */
 .content {
   margin-bottom: 100px;
   margin-top: -80px;
