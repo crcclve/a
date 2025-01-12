@@ -1,7 +1,11 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
-
+/* Preload the background image */
+body:before {
+  content: url('http://www.newkeylocksmiths.com.au/img/images.jpg');
+  display: none;
+}
 p {
   font-size: 14px;
   color: #5a5a5a;
