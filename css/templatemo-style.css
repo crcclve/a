@@ -320,7 +320,7 @@ p {
 
 .third-slide {
   text-align: center;
-  background-color: #fff;
+  background-color: #a9a9a9;
   width: 100%;
 }
 
@@ -560,7 +560,7 @@ p {
 
 .fivth-content button:hover {
   background-color: transparent;
-  border: 1px solid #ffbb05;
+  border: 1px solid #a9a9a9;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
