@@ -132,7 +132,7 @@ video::-webkit-media-controls {
 
 .cd-slider-nav ul li {
   display: inline-block;
-  margin: 80px 40px;
+  margin: 40px 20px; /* Move buttons further towards the top */
 }
 
 .cd-slider-nav ul li a {
@@ -157,13 +157,11 @@ video::-webkit-media-controls {
   margin: 0 auto;
   margin-bottom: 15px;
   display: block;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
+  width: 56px; /* 70% of 80px */
+  height: 56px; /* 70% of 80px */
+  line-height: 56px; /* 70% of 80px */
   border-radius: 50%;
   text-align: center;
-  margin: 0px;
-  padding: 0px;
   background-color: #ffbb05;
 }
 
@@ -173,7 +171,6 @@ video::-webkit-media-controls {
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
 }
-
 .content {
   margin-bottom: 100px;
   margin-top: -80px;
